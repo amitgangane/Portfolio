@@ -1,0 +1,147 @@
+.opensource-main {
+  width: 100%;
+}
+
+.basic-opensource {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.opensource-heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.opensource-heading-img-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opensource-heading-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.opensource-heading-text-div {
+  flex: 1;
+  text-align: center;
+}
+
+.opensource-heading-text {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.opensource-heading-sub-text {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.opensource-content {
+  margin-bottom: 50px;
+}
+
+.opensource-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.opensource-description p {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.github-profile-card {
+  display: flex;
+  justify-content: center;
+}
+
+.github-card {
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.github-card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.github-card p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 25px 0;
+}
+
+.github-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.github-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .opensource-heading-div {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .opensource-heading-img-div {
+    margin-bottom: 20px;
+  }
+  
+  .opensource-heading-text {
+    font-size: 40px;
+  }
+  
+  .opensource-heading-sub-text {
+    font-size: 16px;
+  }
+  
+  .opensource-description p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .github-card {
+    padding: 30px 20px;
+  }
+  
+  .github-card h2 {
+    font-size: 24px;
+  }
+  
+  .github-card p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .github-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

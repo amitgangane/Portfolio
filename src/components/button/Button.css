@@ -1,0 +1,39 @@
+.main-button {
+  background-color: #55198b;
+  border: solid 1px #55198b;
+  color: white;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.main-button:hover {
+  background-color: transparent;
+  color: #55198b;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(85, 25, 139, 0.3);
+}
+
+@media (max-width: 768px) {
+  .main-button {
+    font-size: 14px;
+    padding: 12px 18px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-button {
+    font-size: 12px;
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+}

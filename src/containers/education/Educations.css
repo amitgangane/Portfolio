@@ -1,0 +1,26 @@
+.educations-main-div {
+  margin-bottom: 50px;
+}
+
+.educations-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.educations-header-text {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.educations-body-div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .educations-header-text {
+    font-size: 32px;
+  }
+}

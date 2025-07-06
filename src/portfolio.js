@@ -3,13 +3,11 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -152,7 +150,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Indian Institute of Technology",
-      logo: require("./assets/images/iitLogo.png"),
+      logo: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=200",
       subHeader: "Master of Technology in Computer Science",
       duration: "September 2019 - April 2021",
       desc: "Specialized in Machine Learning and Data Mining. Thesis on Deep Learning for Natural Language Processing.",
@@ -163,7 +161,7 @@ const educationInfo = {
     },
     {
       schoolName: "University of Mumbai",
-      logo: require("./assets/images/mumbaiUniLogo.png"),
+      logo: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=200",
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "August 2015 - May 2019",
       desc: "Graduated with First Class with Distinction. Active member of Data Science Club.",
@@ -212,7 +210,7 @@ const workExperiences = {
     {
       role: "Senior Data Scientist",
       company: "TechCorp Analytics",
-      companylogo: require("./assets/images/techcorpLogo.png"),
+      companylogo: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=200",
       date: "June 2022 – Present",
       desc: "Leading data science initiatives and building ML solutions for business optimization.",
       descBullets: [
@@ -225,7 +223,7 @@ const workExperiences = {
     {
       role: "Data Scientist",
       company: "DataInsights Inc",
-      companylogo: require("./assets/images/datainsightsLogo.png"),
+      companylogo: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=200",
       date: "May 2021 – May 2022",
       desc: "Worked on various machine learning projects across different domains including finance and healthcare.",
       descBullets: [
@@ -238,7 +236,7 @@ const workExperiences = {
     {
       role: "Data Science Intern",
       company: "StartupXYZ",
-      companylogo: require("./assets/images/startupLogo.png"),
+      companylogo: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=200",
       date: "Jan 2021 – Apr 2021",
       desc: "Worked on exploratory data analysis and built initial ML prototypes for the company's core product.",
       descBullets: [
@@ -265,7 +263,7 @@ const bigProjects = {
   subtitle: "SOME MAJOR DATA SCIENCE PROJECTS AND SOLUTIONS I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/mlPlatformLogo.png"),
+      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400",
       projectName: "Enterprise ML Platform",
       projectDesc: "Built an end-to-end machine learning platform for automated model training, validation, and deployment with A/B testing capabilities.",
       footerLink: [
@@ -277,7 +275,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/predictiveAnalyticsLogo.png"),
+      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400",
       projectName: "Predictive Analytics Suite",
       projectDesc: "Developed a comprehensive predictive analytics solution for retail businesses to forecast demand, optimize inventory, and predict customer churn.",
       footerLink: [
@@ -288,7 +286,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nlpLogo.png"),
+      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400",
       projectName: "NLP Text Classification System",
       projectDesc: "Built a multi-class text classification system using transformer models for automated content categorization and sentiment analysis.",
       footerLink: [
@@ -315,7 +313,7 @@ const achievementSection = {
       title: "AWS Certified Machine Learning - Specialty",
       subtitle:
         "Demonstrated expertise in building, training, tuning, and deploying machine learning models on AWS.",
-      image: require("./assets/images/awsLogo.png"),
+      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=200",
       footerLink: [
         {
           name: "Certification",
@@ -327,7 +325,7 @@ const achievementSection = {
       title: "Google Cloud Professional Data Engineer",
       subtitle:
         "Certified in designing and building data processing systems and machine learning models on Google Cloud.",
-      image: require("./assets/images/googleCloudLogo.png"),
+      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=200",
       footerLink: [
         {
           name: "Certification",
@@ -338,7 +336,7 @@ const achievementSection = {
     {
       title: "Kaggle Expert",
       subtitle: "Achieved Expert level on Kaggle with multiple competition medals and high-ranking solutions.",
-      image: require("./assets/images/kaggleLogo.png"),
+      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=200",
       footerLink: [
         {
           name: "Kaggle Profile",
@@ -349,7 +347,7 @@ const achievementSection = {
     {
       title: "Best Data Science Project Award",
       subtitle: "Won the best project award at National Data Science Conference 2022 for innovative ML solution.",
-      image: require("./assets/images/awardLogo.png"),
+      image: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=200",
       footerLink: [
         {
           name: "Award Details",
@@ -367,7 +365,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Data Science, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://medium.com/@amitgangane/understanding-deep-learning-fundamentals",
@@ -444,6 +442,8 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
@@ -460,5 +460,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };

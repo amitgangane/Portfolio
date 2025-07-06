@@ -1,0 +1,123 @@
+.degree-card {
+  margin-bottom: 30px;
+}
+
+.degree-card-border {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.degree-card-border:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.degree-card-content {
+  padding: 20px;
+}
+
+.degree-card-logo {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.degree-card-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.degree-card-body {
+  flex: 1;
+}
+
+.body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.body-header-title {
+  flex: 1;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.duration {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  text-align: right;
+}
+
+.body-content {
+  padding: 0 15px;
+}
+
+.content-list {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.content-list ul {
+  padding-left: 20px;
+}
+
+.content-list li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .degree-card-content > div {
+    flex-direction: column;
+  }
+  
+  .degree-card-logo {
+    margin-right: 0;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+  
+  .body-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .body-header-title {
+    margin-bottom: 10px;
+  }
+  
+  .duration {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .card-subtitle {
+    font-size: 14px;
+  }
+  
+  .content-list {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

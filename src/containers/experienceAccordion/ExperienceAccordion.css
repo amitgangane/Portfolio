@@ -1,0 +1,26 @@
+.experience-accordion {
+  margin-bottom: 50px;
+}
+
+.experience-accordion-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.experience-accordion-header-text {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.experience-accordion-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .experience-accordion-header-text {
+    font-size: 32px;
+  }
+}

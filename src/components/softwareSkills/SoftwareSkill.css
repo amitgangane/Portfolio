@@ -1,0 +1,60 @@
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.software-skill-inline {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.software-skill-inline:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.software-skill-inline i {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.software-skill-inline p {
+  font-size: 10px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .dev-icons {
+    justify-content: center;
+  }
+  
+  .software-skill-inline {
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .software-skill-inline i {
+    font-size: 2rem;
+  }
+  
+  .software-skill-inline p {
+    font-size: 9px;
+  }
+}

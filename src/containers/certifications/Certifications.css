@@ -1,0 +1,42 @@
+.certifications-main-div {
+  margin-bottom: 50px;
+}
+
+.certifications-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.certifications-header-text {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.certifications-header-subtitle {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.certifications-body-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .certifications-header-text {
+    font-size: 32px;
+  }
+  
+  .certifications-header-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .certifications-body-div {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
